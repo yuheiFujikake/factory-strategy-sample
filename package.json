@@ -1,0 +1,14 @@
+{
+  "name": "factory-strategy-sample",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo:userCrud": "tsx src/userCrud/bootstrap.ts",
+    "demo:userSearch": "tsx src/userSearch/bootstrap.ts",
+    "demo:usersView": "tsx src/usersView/bootstrap.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.0",
+    "typescript": "^5.6.0"
+  }
+}
